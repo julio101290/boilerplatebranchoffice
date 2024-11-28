@@ -72,7 +72,7 @@ class InstallCommandBranchOffice extends BaseCommand
             $this->call('migrate');
             // then seed data
             $seeder = Database::seeder();
-            $seeder->call('julio101290\boilerplatebranchoffice\Database\Seeds\boilerplatebranchoffice');
+            $seeder->call('julio101290\boilerplatebranchoffice\Database\Seeds\BoilerplateBranchofficeCRUD');
         } catch (\Exception $e) {
             $this->showError($e);
         }
