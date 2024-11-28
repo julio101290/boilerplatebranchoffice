@@ -1,0 +1,32 @@
+<?php
+
+$branchoffices["logDescription"] = "Se salvó la sucursal con los siguientes datos:";
+$branchoffices["logUpdate"] = "Se actualizó la sucursal con los siguientes datos:";
+$branchoffices["logDeleted"] = "Se eliminó la sucursal con los siguientes datos:";
+$branchoffices["msg_delete"] = "La sucursal fueron eliminadas correctamente:";
+$branchoffices["add"] = "Agregar sucursales";
+$branchoffices["edit"] = "Editar sucursales";
+$branchoffices["createEdit"] = "Crear/Editar";
+$branchoffices["title"] = "gestión de sucursales";
+$branchoffices["subtitle"] = "lista de sucursales";
+$branchoffices["fields"]["key"] = "Llave";
+$branchoffices["fields"]["name"] = "Nombre";
+$branchoffices["fields"]["cologne"] = "Colonia";
+$branchoffices["fields"]["city"] = "Ciudad";
+$branchoffices["fields"]["postalCode"] = "Código Postal";
+$branchoffices["fields"]["timeDifference"] = "Diferencia horaria";
+$branchoffices["fields"]["tax"] = "Impuesto";
+$branchoffices["fields"]["dateAp"] = "ApFecha";
+$branchoffices["fields"]["phone"] = "Teléfono";
+$branchoffices["fields"]["fax"] = "Fax";
+$branchoffices["fields"]["companie"] = "Empresa";
+$branchoffices["fields"]["created_at"] = "Creado en";
+$branchoffices["fields"]["deleted_at"] = "Eliminado en";
+$branchoffices["fields"]["updated_at"] = "Actualizado en";
+$branchoffices["fields"]["actions"] = "Acciones";
+$branchoffices["msg"]["msg_insert"] = "La sucursal se agregaron correctamente.";
+$branchoffices["msg"]["msg_update"] = "La sucursal han sido modificadas correctamente.";
+$branchoffices["msg"]["msg_delete"] = "La sucursal han sido eliminadas correctamente.";
+$branchoffices["msg"]["msg_get"] = "Las sucursal se han obtenido con éxito.";
+$branchoffices["msg"]["msg_get_fail"] = "Las sucursal no encontradas o ya eliminadas.";
+return $branchoffices;
