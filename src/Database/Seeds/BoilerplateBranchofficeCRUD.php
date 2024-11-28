@@ -1,6 +1,6 @@
 <?php
 
-namespace julio101290\boilerplatecompanies\Database\Seeds;
+namespace julio101290\boilerplatebranchoffice\Database\Seeds;
 
 use CodeIgniter\Config\Services;
 use CodeIgniter\Database\Seeder;
@@ -10,7 +10,7 @@ use Myth\Auth\Models\UserModel;
 /**
  * Class BoilerplateSeeder.
  */
-class BoilerplateCompaniesCRUD extends Seeder {
+class BoilerplateBranchofficeCRUD extends Seeder {
 
     /**
      * @var Authorize
