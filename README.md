@@ -21,11 +21,15 @@ CodeIgniter4 Boilerplatecompanies CRUD MVC contain capture, Name RFC 'TAXID Mexi
 
 	composer require julio101290/boilerplatecompanies
 
+ 	composer require julio101290/boilerplatebranchoffice
+
 ### Run command for migration and seeder
 
 	php spark boilerplatecompanies:installcompaniescrud
 
  	php spark boilerplatelog:installlog
+
+  	boilerplatebranchoffice:installbranchoffice
 
  ### BaseController.php Config
 
@@ -112,12 +116,14 @@ CodeIgniter4 Boilerplatecompanies CRUD MVC contain capture, Name RFC 'TAXID Mexi
 * Put in the folder writable/database/catalogossat.db
 
 ### Make the menu
-![image](https://github.com/user-attachments/assets/9357327f-3188-4895-9a6e-d0fc379787ba)
-
-
+![image](https://github.com/user-attachments/assets/3377700f-e5bc-4317-95a4-3b800bead3e5)
 
 
 # Ready
+
+![image](https://github.com/user-attachments/assets/e844eb79-33a5-43e7-9809-c939b8e1028e)
+
+![image](https://github.com/user-attachments/assets/02d65119-62b4-4040-984c-aae92f763c34)
 
 
 Usage
