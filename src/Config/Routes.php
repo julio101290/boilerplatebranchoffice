@@ -18,7 +18,7 @@ $routes->group('admin', function ($routes) {
 
     $routes->post('branchoffices/save'
                 , 'BranchofficesController::save'
-                , ['namespace' => 'julio101290\boilerplatecompanies\Controllers']
+                , ['namespace' => 'julio101290\boilerplatebranchoffice\Controllers']
             );
     $routes->post('branchoffices/getBranchoffices'
                 , 'BranchofficesController::getBranchoffices'
