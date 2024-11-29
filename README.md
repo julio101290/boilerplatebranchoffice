@@ -1,7 +1,7 @@
 [![Latest Stable Version](https://poser.okvpn.org/julio101290/boilerplatecompanies/v/stable)](https://packagist.org/packages/julio101290/boilerplatecompanies) [![Total Downloads](https://poser.okvpn.org/julio101290/boilerplatecompanies/downloads)](https://packagist.org/packages/julio101290/boilerplatecompanies) [![Latest Unstable Version](https://poser.okvpn.org/julio101290/boilerplatecompanies/v/unstable)](https://packagist.org/packages/julio101290/boilerplatecompanies) [![License](https://poser.okvpn.org/julio101290/boilerplatecompanies/license)](https://packagist.org/packages/julio101290/boilerplatecompanies)
 
 ## CodeIgniter 4 Boilerplate Companies
-CodeIgniter4 Boilerplatecompanies CRUD MVC contain capture, Name RFC 'TAXID Mexican', upload logo, key certificate FIEL and CSD, settings EMail, invoice Dominican Republic switch
+CodeIgniter4 Boilerplatebranchoffice CRUD MVC contain capture per companie Key,name, address, admin box
 
 
 ## Requirements
