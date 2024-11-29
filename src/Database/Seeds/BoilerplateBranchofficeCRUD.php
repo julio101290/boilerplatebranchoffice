@@ -37,10 +37,10 @@ class BoilerplateBranchofficeCRUD extends Seeder {
 
 
         // Permission
-        $this->authorize->createPermission('empresas-permisos', 'Permissions for backups');
+        $this->authorize->createPermission('branchoffices-permission', 'Permissions for backups');
 
         // Assign Permission to user
-        $this->authorize->addPermissionToUser('empresas-permisos', 1);
+        $this->authorize->addPermissionToUser('branchoffices-permission', 1);
 
     }
 
