@@ -29,7 +29,7 @@ CodeIgniter4 Boilerplatebranchoffice CRUD MVC contain capture per companie Key,n
 
  	php spark boilerplatelog:installlog
 
-  	boilerplatebranchoffice:installbranchoffice
+  	php spark boilerplatebranchoffice:installbranchoffice
 
  ### BaseController.php Config
 
