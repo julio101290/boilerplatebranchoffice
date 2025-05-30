@@ -49,7 +49,11 @@ class UsuariosSucursalController extends BaseController {
         $userName = user()->username;
         $idUser = user()->id;
         $datos = $this->request->getPost();
+        
+
         if ($datos["idUsuariosSucursal"] == 0) {
+            
+            unset($datos["idUsuariosSucursal"] );
             try {
                 if ($this->usuariosSucursal->save($datos) === false) {
                     $errores = $this->usuariosSucursal->errors();

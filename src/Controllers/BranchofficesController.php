@@ -50,20 +50,21 @@ class BranchofficesController extends BaseController {
 
 
 
-            $datos = $this->branchoffices->select('id
-            ,key
-            ,name
-            ,cologne
-            ,city
-            ,postalCode
-            ,timeDifference
-            ,tax,dateAp
-            ,phone
-            ,fax
-            ,companie
-            ,created_at
-            ,deleted_at
-            ,updated_at')->where('deleted_at', null)
+            $datos = $this->branchoffices->select('id as id
+            ,key as key
+            ,name as name
+            ,cologne as cologne
+            ,city as city
+            ,postalCode as postalCode
+            ,timeDifference as timeDifference
+            ,tax as tax
+            ,dateAp as dateAp
+            ,phone as phone
+            ,fax as fax
+            ,companie as companie
+            ,created_at as created_at
+            ,deleted_at as deleted_at
+            ,updated_at as updated_at')->where('deleted_at', null)
             ->whereIn('companie', $empresasID);;
 
             return \Hermawan\DataTables\DataTable::of($datos)->toJson(true);
@@ -230,7 +231,10 @@ class BranchofficesController extends BaseController {
         } else {
 
             //INSERTA SI  NO EXISTE
-            if ($this->usuariosPorSucursal->insert($datos) === false) {
+            unset($datos["id"]);
+            if ($this->usuariosPorSucursal->save($datos) === false) {
+                
+                
 
                 $errores = $this->usuariosPorSucursal->errors();
 
